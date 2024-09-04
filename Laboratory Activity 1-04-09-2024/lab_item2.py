@@ -1,0 +1,7 @@
+char1, char2 = input("Enter two space-seperated characters: ").split()
+print("---------------------------")
+larger_char = max(char1, char2)
+print(f"The character with the greater value is: {larger_char}")
+print("---------------------------")
+ascii_value = ord(larger_char)
+print(f"The ASCII value of '{larger_char}' is: {ascii_value}")
