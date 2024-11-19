@@ -15,7 +15,6 @@ def roman_to_integer(roman):
         if current_value < prev_value:
             total -= current_value
         else:
-            # Otherwise, add
             total += current_value
         
         prev_value = current_value
